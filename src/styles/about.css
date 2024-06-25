@@ -1,0 +1,22 @@
+
+.img-card{
+    width: 130px;
+    height: 200px;
+    border-radius: 50px 0 50px 50px;
+    border: 2px solid white;
+    object-fit: cover;
+}
+.none-card{
+    width: 130px;
+    height: 100px;
+    border-radius: 50px 0 50px 50px;
+}
+.arrow{
+    height: 300px;
+    width: 300px;
+}
+
+.emp-imgs{
+    width: 100px;
+    height: 100px;
+}
