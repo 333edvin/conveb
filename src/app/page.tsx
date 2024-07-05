@@ -37,12 +37,13 @@ export default function Home() {
     <main>
       {/* Hero Section */}
       <Hero/>
+      <p className="text-center text-lg md:text-2xl text-gray-700">We are dedicated to bringing your ideas to life with our expert web development and marketing services.</p>
         
       {/* Second Section */}
       <article>
     <div className="text-white">
   {/* Hero section */}
-  <div className="container mx-auto py-12 px-4">
+  <div className="container mx-auto py-12 px-4 my-10">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
 
@@ -91,19 +92,19 @@ export default function Home() {
       </div>
 
 
-      {/* right part (text part) */}
       <div className="order-1 md:order-2 bg-slate-700 bg-opacity-50 backdrop-blur-md me-auto p-5 rounded-3xl md:bg-transparent w-fill">
-        <h1 className="text-2xl md:text-5xl mb-4">
-        We Make <span className="text-5xl md:text-7xl font-bold ">Your Business </span> Visible
-        </h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, dolore quia dolor beatae optio labore. Reprehenderit, expedita minima. Fuga necessitatibus a numquam ipsa accusamus sint placeat corporis dignissimos maiores blanditiis.</p>
-        <Link href="/about" className="bg-white text-black p-1  inline-block w-42  btns my-4 ">
-              <p className="border-2 border-blue-900 p-1 px-2 btns flex justify-center ">
-              Know more
-              </p>
-              </Link>
-      </div>
-
+  <h1 className="text-2xl md:text-5xl mb-4">
+    We Make <span className="text-5xl md:text-7xl font-bold ">Your Business </span> Visible
+  </h1>
+  <p>
+    In today's digital age, your online presence is more crucial than ever. At CONVEB, we specialize in crafting stunning, responsive websites that not only look great but perform seamlessly. Our team of experts is dedicated to turning your vision into reality, ensuring your business stands out in a crowded marketplace.
+  </p>
+  <Link href="/about" className="bg-white text-black p-1 inline-block w-42 btns my-4">
+    <p className="border-2 border-blue-900 p-1 px-2 btns flex justify-center">
+      Know more
+    </p>
+  </Link>
+</div>
      
     </div>
   </div>
@@ -112,10 +113,10 @@ export default function Home() {
 
       {/* Services Section */}
       <article>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 my-10">
           <div className="grid grid-cols-2 md:grid-cols-2 gap-8 items-center px-3">
-            <div className="text-xl md:text-4xl">
-              Some of <br /> <span className="text-4xl md:text-6xl font-bold">Our Services</span>
+            <div className="text-xl md:text-3xl">
+              Some of <br /> <span className="text-4xl md:text-5xl font-bold">Our Services</span>
             </div>
             <div className="flex justify-end text-start">
               <div className="flex justify-center w-16 bg-transparent border-2 rounded-3xl btns">
@@ -154,7 +155,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col gap-5 items-start">
+            <div className="flex flex-col justify-between items-start">
               <div className="flex gap-3 items-center">
                 <RiGlobalFill className="text-2xl" />
                 <Image src={insta} alt="insta-icon" className="w-9 md:w-8 md:hover:scale-125" />

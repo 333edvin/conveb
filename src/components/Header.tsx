@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from '../../public/images/logo.png'
-import head from '../../public/images/head-logo.png'
+import head from '../../public/images/logo2.png'
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -21,7 +21,7 @@ const Header = () => {
       <nav className="bg-slate-900 p-1 px-4 fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex">
-            <Image src={head} alt="logo" className="w-12 object-contain"/>
+            <Image src={head} alt="logo" className="w-16 object-contain"/>
             <Image src={logo} alt="logo" className="w-24 object-cover"/>
           </div>
           <div className="sm:hidden">

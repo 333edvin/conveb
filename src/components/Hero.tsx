@@ -29,10 +29,13 @@ function Hero() {
           }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4 hero-font">
-            Welcome to our Website
+            Welcome to <br/>
+            <span className="text-purple-400 md:text-purple-700">
+            CONVEB
+              </span> 
           </h1>
           <p className="text-lg mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet accumsan purus.
+          Transforming your ideas into reality with cutting-edge web development, design, and marketing solutions. Let's elevate your business to new heights.
           </p>
           <Link href="/contact" className="bg-white text-black p-1 inline-block w-56 btns">
             <p className="border-2 border-blue-900 p-1 btns flex justify-center">
