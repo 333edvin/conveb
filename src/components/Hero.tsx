@@ -35,7 +35,7 @@ function Hero() {
               </span> 
           </h1>
           <p className="text-lg mb-6">
-          Transforming your ideas into reality with cutting-edge web development, design, and marketing solutions. Let's elevate your business to new heights.
+          Transforming your ideas into reality with cutting-edge web development, design, and marketing solutions. Let&apos;s elevate your business to new heights.
           </p>
           <Link href="/contact" className="bg-white text-black p-1 inline-block w-56 btns">
             <p className="border-2 border-blue-900 p-1 btns flex justify-center">

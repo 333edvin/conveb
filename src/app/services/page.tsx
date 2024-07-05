@@ -22,7 +22,7 @@ function Page() {
     <div className="container px-8 mx-auto mt-28">
     <h1 className="text-4xl md:text-5xl font-bold">Services</h1>
 <p className="md:w-2/3 my-4">
-  At Conveb, we specialize in crafting high-quality, custom web solutions tailored to meet your business needs. Our services include responsive website design, robust web application development, SEO optimization, and ongoing maintenance and support. Whether you're a startup looking to establish an online presence or an established business seeking to enhance your digital footprint, our team of experts is here to help you achieve your goals with innovative and effective strategies.
+  At Conveb, we specialize in crafting high-quality, custom web solutions tailored to meet your business needs. Our services include responsive website design, robust web application development, SEO optimization, and ongoing maintenance and support. Whether you&apos;re a startup looking to establish an online presence or an established business seeking to enhance your digital footprint, our team of experts is here to help you achieve your goals with innovative and effective strategies.
 </p>
       <Cards>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-5 my-20">

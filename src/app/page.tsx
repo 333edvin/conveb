@@ -97,7 +97,7 @@ export default function Home() {
     We Make <span className="text-5xl md:text-7xl font-bold ">Your Business </span> Visible
   </h1>
   <p>
-    In today's digital age, your online presence is more crucial than ever. At CONVEB, we specialize in crafting stunning, responsive websites that not only look great but perform seamlessly. Our team of experts is dedicated to turning your vision into reality, ensuring your business stands out in a crowded marketplace.
+    In today&apos;s digital age, your online presence is more crucial than ever. At CONVEB, we specialize in crafting stunning, responsive websites that not only look great but perform seamlessly. Our team of experts is dedicated to turning your vision into reality, ensuring your business stands out in a crowded marketplace.
   </p>
   <Link href="/about" className="bg-white text-black p-1 inline-block w-42 btns my-4">
     <p className="border-2 border-blue-900 p-1 px-2 btns flex justify-center">
